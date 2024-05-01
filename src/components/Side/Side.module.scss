@@ -1,0 +1,51 @@
+.sideBar {
+  height: 100%;
+  background: #fff;
+}
+
+// AddFriends
+
+.add {
+  padding: 1rem;
+
+  .addText {
+    font-weight: bold;
+  }
+
+  .addCard {
+    padding: 0.8rem 0.3rem;
+    border-bottom: 1px solid rgb(196, 196, 196);
+    display: flex;
+    gap: 1rem;
+    img {
+      border-radius: 100%;
+      width: 50px;
+      height: 50px;
+      border: 1px solid rgb(228, 228, 228);
+      padding: 0.7rem;
+    }
+
+    .content {
+      flex-grow: 1;
+      h1 {
+        font-size: 16px;
+      }
+
+      p {
+        font-size: 13px;
+        color: rgb(188, 188, 188);
+        font-weight: 300;
+      }
+
+      div {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+      }
+
+      svg {
+        cursor: pointer;
+      }
+    }
+  }
+}

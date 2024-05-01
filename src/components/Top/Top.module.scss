@@ -1,0 +1,55 @@
+$light_gray: #f1f1f133;
+$pri: rgb(75, 75, 255);
+
+.logo {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
+// Header Container
+.headerNav {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+// Search
+.search {
+  background-color: $light_gray;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  outline: none;
+  width: 300px;
+}
+
+// Nav
+.navData {
+  ul {
+    display: flex;
+    gap: 1rem;
+
+    li {
+      a {
+        &:hover {
+          color: $pri;
+        }
+      }
+    }
+  }
+}
+
+// Util Class
+.activeLink {
+  color: $pri;
+}
