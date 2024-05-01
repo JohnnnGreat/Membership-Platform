@@ -15,7 +15,7 @@ const AddNewBar = (prop: any) => {
   const handleTemSubmitPost = async (text: string) => {
     try {
       const res = await fetch(
-        'http://localhost:3000/api/posts',
+        'api/posts',
 
         {
           method: 'POST',
